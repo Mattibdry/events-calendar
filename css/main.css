@@ -6,7 +6,7 @@
 
 html {
   box-sizing: border-box;
-  font-family: "Merriweather", serif;
+  font-family: Merriweather, serif;
 
 }
 
@@ -14,16 +14,36 @@ html {
   box-sizing: inherit;
 }
 
-.day {
-  width: 5em;
-  text-align: left;
-}
-
 td {
-  height: 9em;
+  height: 10em;
+  border: 1px solid #ccc;
 }
 
-.number {
-  text-align: right;
-  font-weight: 700;
+.grey {
+  background-color: #f2f2f2;
+  border-radius: 8px;
+  border: solid 1px #666;
+  color: #333;
+
+}
+
+.green {
+  background-color: #d1e0bf;
+  border-radius: 8px;
+  border: solid 1px #6b7e54;
+  color: #51603f;
+}
+
+.red {
+  background-color: #f2bcbc;
+  border-radius: 8px;
+  border: solid 1px #b92828;
+  color: #991919;
+}
+
+.blue {
+  background-color: #d2d6f0;
+  border-radius: 8px;
+  border: solid 1px #1d38da;
+  color: #38448e;
 }
