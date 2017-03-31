@@ -1,0 +1,29 @@
+@-moz-viewport { width: device-width; scale: 1; }
+@-ms-viewport { width: device-width; scale: 1; }
+@-o-viewport { width: device-width; scale: 1; }
+@-webkit-viewport { width: device-width; scale: 1; }
+@viewport { width: device-width; scale: 1; }
+
+html {
+  box-sizing: border-box;
+  font-family: "Merriweather", serif;
+
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+
+.day {
+  width: 5em;
+  text-align: left;
+}
+
+td {
+  height: 9em;
+}
+
+.number {
+  text-align: right;
+  font-weight: 700;
+}
